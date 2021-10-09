@@ -59,6 +59,10 @@ header * {
     color: #FD7D01;
 }
 
+footer * {
+    color : #FD7D01;
+}
+
 hr {
     padding: 0px;
     border: 4px solid #FD7D01;
