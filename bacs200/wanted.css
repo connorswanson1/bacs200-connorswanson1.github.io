@@ -42,6 +42,14 @@ header {
     padding: 0;
 }
 
+footer {
+    border: 3px solid #FD7D01;
+    background-color: #222222;
+    font-family: sans-serif;
+    height: 120px;
+    padding: 0;
+}
+
 header * {
     color: #FD7D01;
 }
