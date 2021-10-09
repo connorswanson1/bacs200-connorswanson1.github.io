@@ -5,8 +5,13 @@
 }
 
 body {
+    background-color: rgb(192, 192, 192);
     padding: 0px;
     margin: 0px;
+}
+
+main {
+    background-color: rgb(192, 192, 192);
 }
 
 article {
@@ -17,12 +22,12 @@ article {
 }
 
 aside {
-    background-color: rgb(192, 192, 192);
+    background-color: #FD7D01;
     text-align: center;
     font-size: 50px;
     font-family: sans-serif;
     color: white;
-    border: 2px solid #FD7D01;
+    border: 2px solid black;
     float: right;
     width: 30%;
 }
