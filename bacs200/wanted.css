@@ -22,7 +22,7 @@ aside {
     font-size: 50px;
     font-family: sans-serif;
     color: white;
-    border: 2px solid red;
+    border: 2px solid #FD7D01;
     float: right;
     width: 30%;
 }
@@ -84,7 +84,7 @@ body {
 }
 
 h1 {
-    color: red;
+    color: #FD7D01;
     text-align: center;
     background-color: rgb(0, 0, 0);
 }
