@@ -11,17 +11,75 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="nonprofit.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbars/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/footers/">
+
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .carousel-inner>.item>img,
         .carousel-inner>.item>a>img {
             width: 70%;
             margin: auto;
         }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
     </style>
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Page Title</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li>
+                            <img src="/bacs200/images/bearslogo.png" alt="bears logo" width="100">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Connor Swanson</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
+                                aria-expanded="false">Projects</a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                                <li><a class="dropdown-item" href="profile.html">Student Profile</a></li>
+                                <li><a class="dropdown-item" href="inspire.html"> My Inspiration</a></li>
+                                <li><a class="dropdown-item" href="amuse.html">Amuse Me!</a></li>
+                                <li><a class="dropdown-item" href="educate.html">Educate Me!</a></li>
+                                <li><a class="dropdown-item" href="test.html">Page Testing</a></li>
+                                <li><a class="dropdown-item" href="superhero.html">Superheroes</a></li>
+                                <li><a class="dropdown-item" href="wanted.html">Wanted Poster</a></li>
+                                <li><a class="dropdown-item" href="blog.html">Business Blog</a></li>
+                                <li><a class="dropdown-item" href="nonprofit.html">Nonprofit Blog</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
         <div class="container-fluid p-5 bg-primary text-light text-center">
             <a target="_blank" href="https://coloradorefuge.com" class="text-white">
@@ -116,28 +174,45 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
+                    <br>
+                    <div class="container-fluid p-5 bg-dark text-light text-center">
+                        <h3>Contact</h3>
+                        <p>
+                            <a target="_blank" href="https://coloradorefuge.com">Colorado Refuge
+                                Official Website</a>
+                        </p>
+                        <p>
+                            <a target="_blank" href="https://www.instagram.com/coloradorefuge">Colorado Refuge
+                                Instagram Page</a>
+                        </p>
+                        <p>
+                            <a target="_blank" href="https://www.facebook.com/ColoradoRefuge/">Colorado Refuge
+                                Instagram Page</a>
+                        </p>
+                        <p>Main Office: (970)-353-1237</p>
+                    </div>
                 </div>
             </div>
         </div>
 </body>
 </main>
 <footer>
-    <br>
-    <div class="container-fluid p-5 bg-dark text-light text-center">
-        <h3>Contact</h3>
-        <p>
-            <a target="_blank" href="https://coloradorefuge.com">Colorado Refuge
-                Official Website</a>
-        </p>
-        <p>
-            <a target="_blank" href="https://www.instagram.com/coloradorefuge">Colorado Refuge
-                Instagram Page</a>
-        </p>
-        <p>
-            <a target="_blank" href="https://www.facebook.com/ColoradoRefuge/">Colorado Refuge
-                Instagram Page</a>
-        </p>
-        <p>Main Office: (970)-353-1237</p>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">&copy; 2021 University of Northern Colorado</p>
+
+            <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="profile.html" class="nav-link px-2 text-muted">About Me</a></li>
+            </ul>
+        </footer>
     </div>
 </footer>
 
