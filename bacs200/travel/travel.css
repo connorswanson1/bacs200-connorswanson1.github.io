@@ -8,6 +8,12 @@ body {
     color: #5a5a5a;
   }
     
+
+  .nav-item {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   
