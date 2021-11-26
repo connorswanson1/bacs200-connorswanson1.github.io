@@ -38,6 +38,10 @@ body {
   .nav-flush .nav-link {
     border-radius: 0;
   }
+
+  .d-flex {
+    border-bottom-right-radius: 15px;
+  }
   
   .btn-toggle {
     display: inline-flex;
