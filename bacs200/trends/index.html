@@ -19,20 +19,39 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #d0ecff;">
+        <nav class="navbar navbar-dark bg-dark fixed-top" aria-label="trends navbar">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">Web Development Trends</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#">Web Development Trends</a>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="nav nav-pills">
-                        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Trend 1</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Trend 2</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Trend 3</a></li>
+
+                <div class="collapse navbar-collapse" id="navbarsExample01">
+                    <ul class="navbar-nav me-auto mb-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/bacs200/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
+                                aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                                <li><a class="dropdown-item" href="#">Trend 1</a></li>
+                                <li><a class="dropdown-item" href="#">Trend 2</a></li>
+                                <li><a class="dropdown-item" href="#">Trend 3</a></li>
+                            </ul>
+                        </li>
                     </ul>
+                    <form>
+                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                    </form>
                 </div>
             </div>
         </nav>
